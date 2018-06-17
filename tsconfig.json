@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "types": ["node"],
+    "target": "esnext",
+    "module": "commonjs",
+    "outDir": "res/js",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "lib": ["dom", "esnext"]
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
